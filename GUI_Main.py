@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'untitled.ui'
+# Form implementation generated from reading ui file 'GUI_Main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -35,7 +35,8 @@ class Ui_MainWindow(object):
         font.setFamily("Adobe 宋体 Std L")
         font.setPointSize(48)
         self.label.setFont(font)
-        self.label.setStyleSheet("color:rgb(255,255,255)")
+        self.label.setStyleSheet("color:rgb(255,255,255);\n"
+"border:2px solid rgb(255,255,255);")
         self.label.setText("")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
